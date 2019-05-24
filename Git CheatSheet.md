@@ -5,5 +5,6 @@
 `$ env GIT_TRACE_CURL=true git clone <repo-ref>`
 ### Check Remote urls
 `$ git remote --verbose`
-
+or
+`$ git remote -v`
 will give the `fetch` and `push` remote urls.
