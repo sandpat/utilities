@@ -60,3 +60,18 @@ or
 $ git remote -v
 ```
 will give the `fetch` and `push` remote urls.
+
+### List all tags
+```
+$ git tag
+```
+
+### List last tag
+```
+$ git describe --tags --abbrev=0
+```
+
+### List tags for a remote repository
+```
+$ git ls-remote --tags <repo-ref>
+```
