@@ -62,21 +62,16 @@ $ git remote -v
 will give the `fetch` and `push` remote urls.
 
 ### List all tags
-```sh
+```
 $ git tag
 ```
 
 ### List last tag
-```sh
+```
 $ git describe --tags --abbrev=0
 ```
 
 ### List tags for a remote repository
-```sh
-$ git ls-remote --tags <repo-ref>
 ```
-
-### Undo a git merge with conflicts
-```sh
-$ git merge --abort
+$ git ls-remote --tags <repo-ref>
 ```
