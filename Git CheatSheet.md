@@ -75,3 +75,8 @@ $ git describe --tags --abbrev=0
 ```
 $ git ls-remote --tags <repo-ref>
 ```
+
+### Undo a git merge with conflicts 
+```
+$ git merge --abort
+```
